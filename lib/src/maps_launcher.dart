@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:map_launcher/src/directions_url.dart';
-import 'package:map_launcher/src/marker_url.dart';
-import 'package:map_launcher/src/models.dart';
-import 'package:map_launcher/src/utils.dart';
+import 'package:maps_launcher/src/directions_url.dart';
+import 'package:maps_launcher/src/marker_url.dart';
+import 'package:maps_launcher/src/models.dart';
+import 'package:maps_launcher/src/utils.dart';
 
-class MapLauncher {
+class MapsLauncher {
   static const MethodChannel _channel = MethodChannel('map_launcher');
 
   /// Returns list of installed map apps on the device.
