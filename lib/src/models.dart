@@ -154,7 +154,7 @@ class AvailableMap {
     int? zoom,
     Map<String, String>? extraParams,
   }) {
-    return MapLauncher.showMarker(
+    return MapsLauncher.showMarker(
       mapType: mapType,
       coords: coords,
       title: title,
@@ -174,7 +174,7 @@ class AvailableMap {
     DirectionsMode directionsMode = DirectionsMode.driving,
     Map<String, String>? extraParams,
   }) {
-    return MapLauncher.showDirections(
+    return MapsLauncher.showDirections(
       mapType: mapType,
       destination: destination,
       destinationTitle: destinationTitle,
