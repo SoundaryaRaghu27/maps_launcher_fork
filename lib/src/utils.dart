@@ -1,4 +1,4 @@
-import 'package:map_launcher/src/models.dart';
+import 'package:maps_launcher/src/models.dart';
 
 class Utils {
   /// Returns a [String] from [Enum]

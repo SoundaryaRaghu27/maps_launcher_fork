@@ -1,5 +1,5 @@
-import 'package:map_launcher/src/map_launcher.dart';
-import 'package:map_launcher/src/utils.dart';
+import 'package:maps_launcher/src/maps_launcher.dart';
+import 'package:maps_launcher/src/utils.dart';
 
 /// Defines the map types supported by this plugin
 enum MapType {

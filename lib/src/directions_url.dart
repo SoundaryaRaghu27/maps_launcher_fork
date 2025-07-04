@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:map_launcher/src/models.dart';
-import 'package:map_launcher/src/utils.dart';
+import 'package:maps_launcher/src/models.dart';
+import 'package:maps_launcher/src/utils.dart';
 
 /// Returns a url that is used by [showDirections]
 String getMapDirectionsUrl({
