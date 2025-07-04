@@ -28,7 +28,6 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.alexmiller.map_launcher'
     }
-     namespace "com.arise.maps_launcher"
     compileSdkVersion 33
 
     def javaVersion = JavaVersion.VERSION_1_8
